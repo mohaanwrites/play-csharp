@@ -9,6 +9,6 @@ namespace MasteringCSharp.Class
             ChildMessage = nameof(SampleInheritFurther);
         }
 
-        public override void SayGreetings() => Console.WriteLine($"Hello! from {nameof(SampleInheritFurther)} | Message: {ChildMessage}");
+        public override void SayGreetings() => Console.WriteLine($"Hello! from {nameof(SampleInheritFurther)} | Message: {ChildMessage} | Key: {Key}");
     }
 }

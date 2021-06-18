@@ -16,7 +16,8 @@ namespace MasteringCSharp.Class
             ChildMessage = nameof(SampleBase);
         }
 
-        public virtual void DisplayId() => Console.WriteLine($"From Base:\n Id = {Id} | Identifier = {Identifier} | Message: {ChildMessage}");
+        public virtual string Key => "Key";
+        public virtual void DisplayId() => Console.WriteLine($"From Base:\n Id = {Id} | Identifier = {Identifier} | Message: {ChildMessage} | Key: {Key}");
 
         public virtual void SayGreetings() => Console.WriteLine($"Hello! from Base");
     }

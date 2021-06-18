@@ -16,8 +16,9 @@ namespace MasteringCSharp.Class
         public sealed override void DisplayId()
         {
             GetHelperInstance().DoSomething();
-            Console.WriteLine($"From {nameof(SampleInherit)}:\n Id = {Id} | Identifier = {Identifier} | Message: {ChildMessage}");
+            Console.WriteLine($"From {nameof(SampleInherit)}:\n Id = {Id} | Identifier = {Identifier} | Message: {ChildMessage} | Key: {Key}");
         }
+        public sealed override string Key => "Changed Key";
         public override void SayGreetings() => Console.WriteLine($"Hello! from {nameof(SampleInherit)}");
     }
 }

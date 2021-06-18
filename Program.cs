@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MasteringCSharp
+namespace play_csharp
 {
     partial class Program
     {
@@ -17,7 +17,9 @@ namespace MasteringCSharp
                 case 2:
                     OutputCollectionConcept();
                     break;
-
+                case 3:
+                    OutputPropertiesConcept();
+                    break;
                 default:
                     Console.WriteLine("Invalid choice");
                     Console.ReadLine();

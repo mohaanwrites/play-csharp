@@ -1,7 +1,7 @@
 using System;
 using MasteringCSharp.Class;
 
-namespace MasteringCSharp
+namespace play_csharp
 {
     partial class Program
     {
