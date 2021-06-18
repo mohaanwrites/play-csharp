@@ -3,3 +3,4 @@
 .vscode
 *\results
 *.log
+omnisharp.json
