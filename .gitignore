@@ -1,6 +1,5 @@
 /bin
 /obj
 .vscode
-*\results
-*.log
+BenchmarkDotNet.Artifacts
 omnisharp.json

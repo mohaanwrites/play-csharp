@@ -24,6 +24,9 @@ namespace play_csharp
                 case 3:
                     OutputPropertiesConcept();
                     break;
+                case 4:
+                    OutputHumanizerPackageConcepts();
+                    break;
                 default:
                     Console.WriteLine("Invalid choice");
                     Console.ReadLine();
